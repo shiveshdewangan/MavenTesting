@@ -8,7 +8,7 @@
 
     <test name="Remember Username And Password">
         <classes>
-            <class name="FirstTest"/>
+            <class name="testcases.FirstTest"/>
         </classes>
     </test>
 
