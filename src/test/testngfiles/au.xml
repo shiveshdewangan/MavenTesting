@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite group-by-instances="true" name="Leap_AU_Test_Suite">
+
+    <parameter name="sUsername" value="bc@internal.au"/>
+    <parameter name="sPassword" value="Pass2016"/>
+    <parameter name="testRegion" value="au"/>
+
+    <test name="Remember Username And Password">
+        <classes>
+            <class name="FirstTest"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->
